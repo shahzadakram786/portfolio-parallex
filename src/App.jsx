@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero";
 
 import Navbar from "./components/navbar/Navbar";
 import Parallex from "./components/parallex/Parallex";
+import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 
 const App = () => {
@@ -17,10 +18,12 @@ const App = () => {
       <Parallex type="services"/>
     </section>
     <section><Services/></section>
-    <section id="Portfolio" type="portfolio">Parallex</section>
-    <section>Portfolio1</section>
-    <section>Portfolio2</section>
-    <section>Portfolio3</section>
+    <section id="Portfolio" type="portfolio">
+      <Parallex/>
+    </section>
+
+      <Portfolio/>
+
     <section id="Contact" >Contact</section>
 
   </div>
